@@ -1,6 +1,7 @@
 def main():
-    number = int(input('Type a number to test: '))
-    print(test(number))
+    for i in range(100):
+        if test(i):
+            print(i)
 
 
 def test(number):

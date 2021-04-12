@@ -8,6 +8,15 @@ def run():
         power = 2**counter
 
 
+def forloop():
+    a = range(50, 101)
+    for i in a:
+        print(i)
+    a = list(a)
+    print(a)
+
+
 if __name__ == '__main__':
     run()
+    forloop()
     print('End')

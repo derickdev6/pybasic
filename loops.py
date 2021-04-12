@@ -9,14 +9,13 @@ def run():
 
 
 def forloop():
-    a = range(50, 101)
-    for i in a:
-        print(i)
-    a = list(a)
-    print(a)
+    name = input('Type your name: ')
+    # for char in range(len(name)):
+    #     print(name[char])
+    for char in name:
+        print(char.upper())
 
 
 if __name__ == '__main__':
-    run()
     forloop()
     print('End')

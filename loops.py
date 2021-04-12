@@ -1,10 +1,11 @@
 def run():
-    number = 2
-    counter = 2
-    while number * 2 < 1000000:
-        number = number * 2
-        print(str(counter) + ' ' + str(number))
+    LIMIT = 100000000
+    counter = 0
+    power = 2**counter
+    while power < LIMIT:
+        print('2 a la ' + str(counter) + ' = ' + str(power))
         counter += 1
+        power = 2**counter
 
 
 if __name__ == '__main__':
